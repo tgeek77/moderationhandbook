@@ -112,80 +112,41 @@ Appendices
 
 ## 1. Introduction
 
-The purpose of this document is to assist new and existing moderators in
-understanding what is involved in moderating a newsgroup. This document
-contains information about how the moderation process works, how to get
-started, where to get existing moderation posting software, what NetNews
-related problems moderators may encounter, and where to get additional
+The purpose of this document is to assist new and existing moderators in understanding what is involved in moderating a newsgroup. This document contains information about how the moderation process works, how to get started, where to get existing moderation posting software, what NetNews related problems moderators may encounter, and where to get additional
 help if needed.
 
-In the past, most moderators learned on-the-job, and there was not much
-documentation available about what was expected of a moderator. This
-document attempts to aid new moderators in understanding what it is that
-they have gotten themselves into. This document will also be useful to
-those wishing to volunteer to be a moderator.
+In the past, most moderators learned on-the-job, and there was not much documentation available about what was expected of a moderator. This document attempts to aid new moderators in understanding what it is that
+they have gotten themselves into. This document will also be useful to those wishing to volunteer to be a moderator.
 
-Within this document, Usenet refers to the traditional core hierarchies
-of comp, misc, news, rec, sci, soc and talk. The term 'Network News'
-(or 'NetNews') refers to all hierarchies that use the same transport
-and reader mechanisms that the traditional core hierarchies do.
+Within this document, Usenet refers to the traditional core hierarchies of comp, misc, news, rec, sci, soc and talk. The term 'Network News' (or 'NetNews') refers to all hierarchies that use the same transport and reader mechanisms that the traditional core hierarchies do.
 
-Moderation of newsgroups is transcending the traditional core Usenet
-news hierarchies as many organizations are using NetNews software for
-internal use. Also, many non-core hierarchies, such as alt, biz, bionet,
-etc., contain moderated newsgroups.
+Moderation of newsgroups is transcending the traditional core Usenet news hierarchies as many organizations are using NetNews software for internal use. Also, many non-core hierarchies, such as alt, biz, bionet, etc., contain moderated newsgroups.
 
-It is the intent of the author that this document also be of use to
-those who are not Usenet moderators but are moderating NetNews
-newsgroups nevertheless.
+It is the intent of the author that this document also be of use to those who are not Usenet moderators but are moderating NetNews newsgroups nevertheless.
 
-It is expected that readers of this document are already familiar with
-NetNews, at least from a user's perspective, and have been exposed to
-network tools such as FTP. A complete explanation of NetNews jargon and
-culture is beyond the scope of this document.
+It is expected that readers of this document are already familiar with NetNews, at least from a user's perspective, and have been exposed to network tools such as FTP. A complete explanation of NetNews jargon and culture is beyond the scope of this document.
 
 ## 2. What does 'moderated' mean ?
 
-'Moderated' means that all postings to the newsgroup go to a mail
-address (e.g.,
-[comp-std-unix@uunet.uu.net](https://web.archive.org/web/20071021025621/mailto:comp-std-unix@uunet.uu.net))
-instead of appearing in the newsgroup directly. The postings are then
-forwarded via email to a moderator, or group of moderators, or even an
-automated program, who decides whether to actually inject the article
-into the newsgroup or to reject it as not meeting guidelines spelled out
-in the group's charter.
+'Moderated' means that all postings to the newsgroup go to a mail address (e.g., news.group@example.com) instead of appearing in the newsgroup directly. The postings are then forwarded via email to a moderator, or group of moderators, or even an automated program, who decides whether to actually inject the article into the newsgroup or to reject it as not meeting guidelines spelled out in the group's charter.
 
-The main purpose of newsgroup moderation is to prevent inappropriate
-posts to the newsgroup. For example, moderation can prevent discussion
-or requests for software from appearing in groups dedicated to posting
-source code. It can also be used to facilitate discussions, to create a
-forum for announcements, to prevent repeated posts of the same
-information, or to cut off endless uninformative arguments. Some groups,
-e.g.,
-[rec.humor.funny](https://web.archive.org/web/20071021025621/news:rec.humor.funny)
-and some source groups, also use it to control the traffic volume.
+The main purpose of newsgroup moderation is to prevent inappropriate posts to the newsgroup. For example, moderation can prevent discussion or requests for software from appearing in groups dedicated to posting source code. It can also be used to facilitate discussions, to create a forum for announcements, to prevent repeated posts of the same information, or to cut off endless uninformative arguments. Some groups, e.g., rec.humor.funny and some source groups, also use it to control the traffic volume.
 
-Moderation should not be used to censor unpopular viewpoints, or those
-that the moderator simply disagrees with. It is best to have a very
-clear charter and moderation policy for the newsgroup, so that newsgroup
-readers and posters can tell which topics are, or are not, appropriate
-for discussion on the newsgroup.
+Moderation should not be used to censor unpopular viewpoints, or those that the moderator simply disagrees with. It is best to have a very clear charter and moderation policy for the newsgroup, so that newsgroup readers and posters can tell which topics are, or are not, appropriate for discussion on the newsgroup.
 
 ## 3. Why do Usenet moderated newsgroups exist ?
 
+Groups on the net are moderated for a variety of reasons. All moderation serves the same basic purpose, to filter out inappropriate postings and to deliver timely, on-topic articles. Most moderated groups fall into one of five general categories:
 
+1. Groups with postings of an informative nature not suited to discussion and always originating from the same (very small) group of posters. Groups within this category include news.lists, news.announce.newusers and comp.mail.maps.
 
-Groups on the net are moderated for a variety of reasons. All moderation
-serves the same basic purpose, to filter out inappropriate postings and
-to deliver timely, on-topic articles. Most moderated groups fall into
-one of five general categories:
+2. Groups derived from regular groups with such a high volume that it is hard for the average reader to keep up. The moderated versions of these groups are an attempt to provide a lower volume and higher quality version of the same forum. An example of this category is news.announce.newgroups (a reduced form of news.groups).
 
-1. Groups with postings of an informative nature not suited to discussion and always originating from the same (very small) group of posters. Groups within this category include [news.lists](https://web.archive.org/web/20071021065600/news:news.lists), [news.announce.newusers](https://web.archive.org/web/20071021065600/news:news.announce.newusers),
-    and [comp.mail.maps](https://web.archive.org/web/20071021065600/news:comp.mail.maps).
-2. Groups derived from regular groups with such a high volume that it is hard for the average reader to keep up. The moderated versions of these groups are an attempt to provide a lower volume and higher quality version of the same forum. An example of this category is [news.announce.newgroups](https://web.archive.org/web/20071021065600/news:news.announce.newgroups) (a reduced form of [news.groups](https://web.archive.org/web/20071021065600/news:news.groups)).
-3. Groups derived from regular groups that have often been abused. That is, the regular groups often received postings of items that were not germane to the stated topic of the group (or sometimes even within the realm of politeness for the net). This also includes groups suffering from an annoying number of duplicate postings and inappropriate followups. Moderated groups in this category include [comp.sources.misc](https://web.archive.org/web/20071021065600/news:comp.sources.misc).
-4. Groups designed to serve as direct feedback to an off-the-net group. The discussion in [comp.std.mumps](https://web.archive.org/web/20071021065600/news:comp.std.mumps) is an example of this.
-5. Groups that are gatewayed into Usenet from an Internet mailing list. These groups are moderated by someone on the Internet side but are shared with the Usenet population. Submissions mailed to the proper addresses, given below, will appear in both the group on Usenet, and the Internet list. This includes some groups in the "inet" distribution such as [comp.ai.vision](https://web.archive.org/web/20071021065600/news:comp.ai.vision).
+3. Groups derived from regular groups that have often been abused. That is, the regular groups often received postings of items that were not germane to the stated topic of the group (or sometimes even within the realm of politeness for the net). This also includes groups suffering from an annoying number of duplicate postings and inappropriate followups. Moderated groups in this category include comp.sources.misc.
+
+4. Groups designed to serve as direct feedback to an off-the-net group. The discussion in comp.std.mumps is an example of this.
+
+5. Groups that are gatewayed into Usenet from an Internet mailing list. These groups are moderated by someone on the Internet side but are shared with the Usenet population. Submissions mailed to the proper addresses, given below, will appear in both the group on Usenet, and the Internet list. This includes some groups in the "inet" distribution such as comp.ai.vision.
 
 ##  4. Role of a moderator
 
@@ -197,18 +158,12 @@ Depending on the nature of the group, acceptable turnaround time can range from 
 
 ## 5. How the moderation process works technically
 
-This section contains technical information about the news mechanisms of
-concern to newsgroup moderators, including standard news headers,
+This section contains technical information about the news mechanisms of concern to newsgroup moderators, including standard news headers,
 dealing with submissions, and generating special purpose headers to
 better serve your newsgroup.
 
 A moderated newsgroup is marked as such in the news transport software
-(most often with a trailing "m" flag in the active file of news
-systems). What this means is that articles must be approved before they
-are accepted in the group. When an article is posted to a moderated
-group, the news transport software will mail the article to the
-moderator [[See Section 5.1 Mailpath Usage](#5.1)] for approval and
-actual injection into the news system.
+(most often with a trailing "m" flag in the active file of news systems). What this means is that articles must be approved before they are accepted in the group. When an article is posted to a moderated group, the news transport software will mail the article to the moderator See Mailpath Usage for approval and actual injection into the news system.
 
 Once the moderator has received a submitted article in the incoming
 mailbox, (and if necessary has edited the article's content) the
